@@ -88,7 +88,7 @@ def H_mpt(gpa, mgpa, mpt, sen):
 def H_mact(gpa, mgpa, mact, sen):
     h0 = H_none(gpa, mgpa, sen)
 
-    if h0 >= 5:
+    if h0 >= 4:#was h0>=5 before June 4
         return h0
     else:
         if mact >= 23:
